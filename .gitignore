@@ -12,6 +12,8 @@
 .idea/**/dictionaries
 .idea/**/shelf
 
+RiderScriptEditorPersistedState.asset
+
 # AWS User-specific
 .idea/**/aws.xml
 
