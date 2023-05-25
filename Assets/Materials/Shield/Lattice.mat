@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shield 0
+  m_Name: Lattice
   m_Shader: {fileID: -6465566751694194690, guid: 092023ed102aea641857befb1c7253ba,
     type: 3}
   m_ValidKeywords:

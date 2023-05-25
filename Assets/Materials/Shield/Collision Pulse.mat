@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shield 2
+  m_Name: Collision Pulse
   m_Shader: {fileID: -6465566751694194690, guid: 16732a851be1a6f4a911d713c27f3a99,
     type: 3}
   m_ValidKeywords:
