@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Pulse
-  m_Shader: {fileID: -6465566751694194690, guid: 4e7e18537f56b95409979b435a0734d7,
+  m_Shader: {fileID: -6465566751694194690, guid: 05ac756ed69874b46b58ca3d4e3a0847,
     type: 3}
   m_ValidKeywords:
   - _SURFACE_TYPE_TRANSPARENT

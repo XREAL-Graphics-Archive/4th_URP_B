@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Plane
-  m_Shader: {fileID: -6465566751694194690, guid: b5e841f0362fee741887a02e067cc771,
+  m_Shader: {fileID: -6465566751694194690, guid: 2145e07eba1b9b64191218cb78d8c2ab,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
