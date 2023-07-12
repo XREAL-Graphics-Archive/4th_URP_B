@@ -20,7 +20,7 @@ public class ShieldHit : MonoBehaviour
         meshRenderer.SetPropertyBlock(materialPropertyBlock);
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision other)
     {
         materialPropertyBlock.SetVector(hitPoint, other.transform.position);
         materialPropertyBlock.SetFloat(hitTime, Time.time);
