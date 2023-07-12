@@ -46,9 +46,13 @@ Shader "VolumetricLight"
             sampler2D _MainTex;
             // ray marching용 변수들
             real _Scattering;
+            // 광원의 방향 벡터
             real3 _SunDirection;
+            // ray 별 구간 개수
             real _Steps;
+            // ray 시작위치 랜덤 계수
             real _JitterVolumetric;
+            // 카메라부터의 ray 최대 거리
             real _MaxDistance;
 
             // World space 좌표계의 특정 지점이 main light에 의한 그림자의 세기를 반환
@@ -396,7 +400,9 @@ Shader "VolumetricLight"
             TEXTURE2D(_LowResolutionDepthTexture);
             SAMPLER(sampler_LowResolutionDepthTexture);
 
+            // 광원의 색깔
             real4 _LightColor;
+            // 광원의 빛 세기
             real _Intensity;
 
             // 최종적으로 지금까지 pass들의 결과물을 종합하는 단계
